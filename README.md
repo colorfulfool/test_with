@@ -6,9 +6,9 @@ test-with **watches your current directory and runs the command you specify ever
 
 `test-with rails test test/controllers` will display real-time results of your controllers tests
 
-`test-with ruby letter_test.rb` will display real-time results of the specified Ruby test file
+`test-with ruby letter_test.rb` will display real-time results of the Ruby test file
 
-`test-with python tests.py` will display real-time results of the specified Python test file
+`test-with python tests.py` will display real-time results of the Python test file
 
 `test-with git status` will display real-time list of changes in the directory
 
