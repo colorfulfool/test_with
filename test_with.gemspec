@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "test_with"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.3"
   spec.authors       = ["Anton Khamets"]
   spec.email         = ["colorfulfool@gmail.com"]
 
   spec.summary       = "Watches current dir and runs the command after any change"
-  spec.description   = "A generalization if autotest: watches current dir and runs the command after any change"
+  spec.description   = "Autotest but for any language and test environment"
   spec.homepage      = "https://github.com/colorfulfool/test_with"
   spec.license       = "MIT"
 
