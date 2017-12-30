@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Watches current dir and runs the command after any change"
   spec.description   = "A generalization if autotest: watches current dir and runs the command after any change"
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/colorfulfool/test_with"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
