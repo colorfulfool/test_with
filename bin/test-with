@@ -1,7 +1,11 @@
 #!/usr/bin/env ruby
 require 'listen'
 
-@command = ARGV.join(' ')
+if ARGV.any?
+  @command = ARGV.join(' ')
+else
+  abort "Usage:\n\ntest-with rails test <-- will run `rails test` on any change in the current directory\n\n"
+end
 
 def run_command
   print "\033c"
